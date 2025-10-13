@@ -1,4 +1,5 @@
 // module1
+// fungsi penjumlahan
 const tambahan = require('./function/module1')
 
 const hasilMod1 = tambahan(10, 9)
@@ -6,13 +7,15 @@ console.log(`hasil dari module1: ${hasilMod1}`)
 
 
 // module2
+// fungsi perkenalan
 const greet = require('./function/module2')
 
 const hasilMod2 = greet('naufal cleariv', 99)
 console.log(`hasil dari module2: ${hasilMod2}`)
 
 
-// module3
+// module3 
+// fungsi cek 
 const motivasi = require('./function/module3')
 
 const hasilMod3 = motivasi(1000000000)
@@ -20,6 +23,7 @@ console.log(`hasil dari module3: ${hasilMod3}`)
 
 
 // module4
+// fungsi cek modulo
 const modulo = require('./function/module4')
 
 const hasilMod4 = modulo(100)

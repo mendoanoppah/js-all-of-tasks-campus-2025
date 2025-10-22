@@ -46,7 +46,7 @@ function pengkategorian(data, properti) {
   const hasil = {}
 
   for (const item of data) {
-    const kategori = properti[item]
+    const kategori = properti(item)
 
     if (!hasil[kategori]) {
       hasil[kategori] = []

@@ -1,0 +1,10 @@
+{
+  "Indonesia": {
+    "name": ["SUPRI", "ASEP", "UCUP"],
+    "country": "Indonesia"
+  },
+  "UK": {
+    "name": ["ALEXANDRE", "CHURCHIL", "MUSOLINI"],
+    "country": "United Kingdom"
+  }
+}
